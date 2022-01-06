@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Main Page</title>
+    <!--bootstrap 5.1.3-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <div class="container-fluid" >
+      <div class="row">
+        <div class="col" >
+          <nav class="navbar navbar-expand-lg navbar-light bg-light"  >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="font-family: 'Lobster', cursive; color:grey" >
+                <i class="bi bi-instagram"></i>
+                Instagram</a>
+            </div>
+            <!--boton create a new post-->
+
+            <button type="button" class="text-center btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            style="width: 226px;">
+                create a new post
+            </button>
+
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+                <div class="modal-dialog">
+                <div class="modal-content" >
+                    <div class="modal-header" >
+                        <div class="mb-3" style="width:489px;">
+
+                            <textarea class="form-control" id="message-text" ></textarea>
+                          </div>
+                    </div>
+                    <div class="container-fluid" style="padding-left:16px" >
+                        <button type="button" class="btn btn-Light" data-bs-dismiss="modal" style="border-color:black"><i class="bi bi-camera-fill" ></i></button>
+                        <button type="button" class="btn btn-Light" data-bs-dismiss="modal" style="border-color:black"><i class="bi bi-geo-alt-fill"></i></button>
+
+
+
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-Light" data-bs-dismiss="modal" style="border-color:black">Cancel</button>
+                    <button type="button" class="btn btn-success">Publish</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+            <!--bottom gear-->
+            <div class="dropdown">
+                <a class="btn dropdown-toggle" href="#"  id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="color: grey;">
+                    <i class="bi bi-gear-fill" style="color: #898180;"></i>
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+
+          </nav>
+        </div>
+      </div>
+
+      <!--botom para la primera pagina-->
+      <div class="row">
+        <div class="col text-end ps-0 pe-0">
+          <a href="index.html">
+            <button type="button" class="btn btn-light">
+                <i class="bi bi-grid-3x3-gap"></i>
+            </button>
+          </a>
+        </div>
+
+        <!--boton para la segunda pagina-->
+        <div class="col text-left ps-0 pe-0">
+          <a href="index2.html">
+            <button type="button" class="btn btn-light">
+                <i class="bi bi-stop-fill"></i>
+            </button>
+          </a>
+        </div>
+      </div>
+
+    <!--imagen 1 -->
+        <div>
+          <div class="row" style="background-color: rgb(237 231 231); ">
+              <div class="card container ps-0 pe-0" style="width: 28rem; margin-top: 20px;margin-bottom: 40px;">
+                <div class="row">
+                  <div class="col-6">
+                      <span>My first photo</span>
+                  </div>
+                  <div class="col-6 text-end">
+                      <span class="text-muted">12/14</span>
+                  </div>
+                  <img src="https://i.pinimg.com/564x/23/a7/dc/23a7dc8c566672073a518b9ab1a3b6c6.jpg" >
+                  <div class="card-body pt-0 pb-0">
+                  <p class="card-text "><h6>23 Likes</h6></p>
+                  <p>This is my first photo of the feed.
+               this is a multi line comment for testing purposes. I am learning to code with #breatheCode</p>
+                <div class="row ">
+                  <div class="col-1 text-muted"><i class="bi bi-heart"></i></div>
+                  <div class="col text-muted text-start">Comment...</div>
+                  <div class="col text-end text-muted"><i class="bi bi-list-ul"></i></div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+       <!--imagen 2-->
+        <div>
+          <div>
+            <div class="row mt-40 mb-40">
+              <div class="card container ps-0 pe-0" style="width: 28rem; margin-top: 20px;margin-bottom: 40px;">
+                <div class="row">
+                  <div class="col-6">
+                      <span>My first photo</span>
+                  </div>
+                  <div class="col-6 text-end">
+                      <span class="text-muted">12/14</span>
+                  </div>
+                  <img src="https://i.pinimg.com/564x/ba/d9/17/bad917d1cbbd2b355d3874f98e351fe2.jpg" >
+                  <div class="card-body pt-0 pb-0">
+                  <p class="card-text"><h6>23 Likes</h6></p>
+                  <p>This is my first photo of the feed.
+             this is a multi line comment for testing purposes. I am learning to code with #breatheCode</p>
+                <div class="row ">
+                  <div class="col-1 text-muted"><i class="bi bi-heart"></i></div>
+                  <div class="col text-muted text-start">Comment...</div>
+                  <div class="col text-end text-muted"><i class="bi bi-list-ul"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--imagen 3-->
+        <div>
+          <div>
+            <div class="row mt-40 mb-40">
+              <div class="card container ps-0 pe-0" style="width: 28rem; margin-top: 20px;margin-bottom: 40px;">
+                <div class="row">
+                  <div class="col-6">
+                      <span>My first photo</span>
+                  </div>
+                  <div class="col-6 text-end">
+                      <span class="text-muted">12/14</span>
+                  </div>
+                  <img src="https://i.pinimg.com/564x/f8/2a/47/f82a47957c7be27d59e8829c263f015c.jpg" >
+                  <div class="card-body pt-0 pb-0">
+                  <p class="card-text"><h6>23 Likes</h6></p>
+                  <p>This is my first photo of the feed.
+             this is a multi line comment for testing purposes. I am learning to code with #breatheCode</p>
+                <div class="row ">
+                  <div class="col-1 text-muted"><i class="bi bi-heart"></i></div>
+                  <div class="col text-muted text-start">Comment...</div>
+                  <div class="col text-end text-muted"><i class="bi bi-list-ul"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--imagen 4-->
+        <div>
+          <div>
+            <div class="row mt-40 mb-40">
+              <div class="card container ps-0 pe-0" style="width: 28rem; margin-top: 20px;margin-bottom: 40px;">
+                <div class="row">
+                  <div class="col-6">
+                      <span>My first photo</span>
+                  </div>
+                  <div class="col-6 text-end">
+                      <span class="text-muted">12/14</span>
+                  </div>
+                  <img src="https://i.pinimg.com/564x/b8/6e/38/b86e3804dcbf8be5df672c8acb0207b1.jpg" >
+                  <div class="card-body pt-0 pb-0">
+                  <p class="card-text"><h6>23 Likes</h6></p>
+                  <p>This is my first photo of the feed.
+             this is a multi line comment for testing purposes. I am learning to code with #breatheCode</p>
+                <div class="row ">
+                  <div class="col-1 text-muted"><i class="bi bi-heart"></i></div>
+                  <div class="col text-muted text-start">Comment...</div>
+                  <div class="col text-end text-muted"><i class="bi bi-list-ul"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--imagen 5-->
+        <div>
+          <div>
+            <div class="row mt-40 mb-40">
+              <div class="card container ps-0 pe-0" style="width: 28rem; margin-top: 20px;margin-bottom: 40px;">
+                <div class="row">
+                  <div class="col-6">
+                      <span>My first photo</span>
+                  </div>
+                  <div class="col-6 text-end">
+                      <span class="text-muted">12/14</span>
+                  </div>
+                  <img src="https://i.pinimg.com/564x/9a/d3/fc/9ad3fc7add50e5efb4040b1ab5701afe.jpg" >
+                  <div class="card-body pt-0 pb-0">
+                  <p class="card-text"><h6>23 Likes</h6></p>
+                  <p>This is my first photo of the feed.
+             this is a multi line comment for testing purposes. I am learning to code with #breatheCode</p>
+                <div class="row ">
+                  <div class="col-1 text-muted"><i class="bi bi-heart"></i></div>
+                  <div class="col text-muted text-start">Comment...</div>
+                  <div class="col text-end text-muted"><i class="bi bi-list-ul"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--imagen 6-->
+        <div>
+          <div>
+            <div class="row mt-40 mb-40">
+              <div class="card container ps-0 pe-0" style="width: 28rem; margin-top: 20px;margin-bottom: 40px;">
+                <div class="row">
+                  <div class="col-6">
+                      <span>My first photo</span>
+                  </div>
+                  <div class="col-6 text-end">
+                      <span class="text-muted">12/14</span>
+                  </div>
+                  <img src="https://i.pinimg.com/564x/1d/ab/4d/1dab4dd3d793547cf9fe06d0c3072718.jpg" >
+                  <div class="card-body pt-0 pb-0">
+                  <p class="card-text"><h6>23 Likes</h6></p>
+                  <p>This is my first photo of the feed.
+             this is a multi line comment for testing purposes. I am learning to code with #breatheCode</p>
+                <div class="row ">
+                  <div class="col-1 text-muted"><i class="bi bi-heart"></i></div>
+                  <div class="col text-muted text-start">Comment...</div>
+                  <div class="col text-end text-muted"><i class="bi bi-list-ul"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--imagen 7-->
+        <div>
+          <div>
+            <div class="row mt-40 mb-40">
+              <div class="card container ps-0 pe-0" style="width: 28rem; margin-top: 20px;margin-bottom: 40px;">
+                <div class="row">
+                  <div class="col-6">
+                      <span>My first photo</span>
+                  </div>
+                  <div class="col-6 text-end">
+                      <span class="text-muted">12/14</span>
+                  </div>
+                  <img src="https://i.pinimg.com/564x/65/ba/19/65ba19baf49f90828c1b50a13f7e4cb0.jpg" >
+                  <div class="card-body pt-0 pb-0">
+                  <p class="card-text"><h6>23 Likes</h6></p>
+                  <p>This is my first photo of the feed.
+             this is a multi line comment for testing purposes. I am learning to code with #breatheCode</p>
+                <div class="row ">
+                  <div class="col-1 text-muted"><i class="bi bi-heart"></i></div>
+                  <div class="col text-muted text-start">Comment...</div>
+                  <div class="col text-end text-muted"><i class="bi bi-list-ul"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--imagen 8-->
+        <div>
+          <div>
+            <div class="row mt-40 mb-40">
+              <div class="card container ps-0 pe-0" style="width: 28rem; margin-top: 20px;margin-bottom: 40px;">
+                <div class="row">
+                  <div class="col-6">
+                      <span>My first photo</span>
+                  </div>
+                  <div class="col-6 text-end">
+                      <span class="text-muted">12/14</span>
+                  </div>
+                  <img src="https://i.pinimg.com/564x/eb/12/c4/eb12c4be711cddece3bf2099d12ccaaf.jpg" >
+                  <div class="card-body pt-0 pb-0">
+                  <p class="card-text"><h6>23 Likes</h6></p>
+                  <p>This is my first photo of the feed.
+             this is a multi line comment for testing purposes. I am learning to code with #breatheCode</p>
+                <div class="row ">
+                  <div class="col-1 text-muted"><i class="bi bi-heart"></i></div>
+                  <div class="col text-muted text-start">Comment...</div>
+                  <div class="col text-end text-muted"><i class="bi bi-list-ul"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--imagen 9-->
+        <div>
+          <div>
+            <div class="row mt-40 mb-40">
+              <div class="card container ps-0 pe-0" style="width: 28rem; margin-top: 20px;margin-bottom: 40px;">
+                <div class="row">
+                  <div class="col-6">
+                      <span>My first photo</span>
+                  </div>
+                  <div class="col-6 text-end">
+                      <span class="text-muted">12/14</span>
+                  </div>
+                  <img src="https://i.pinimg.com/564x/80/60/b6/8060b60943f25145410b3ad5561a9afc.jpg" >
+                  <div class="card-body pt-0 pb-0">
+                  <p class="card-text"><h6>23 Likes</h6></p>
+                  <p>This is my first photo of the feed.
+             this is a multi line comment for testing purposes. I am learning to code with #breatheCode</p>
+                <div class="row ">
+                  <div class="col-1 text-muted"><i class="bi bi-heart"></i></div>
+                  <div class="col text-muted text-start">Comment...</div>
+                  <div class="col text-end text-muted"><i class="bi bi-list-ul"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
